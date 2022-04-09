@@ -1,0 +1,79 @@
+/* ..................body */
+.the-body{
+    padding: 0 5%;
+}
+
+/* .................some defaults */
+.pr-color{
+    background:linear-gradient(90deg, #0a5cd7, #066e59);
+}
+p, a, i, .hr-tag, .card, #heading{
+    color: white;
+}
+
+
+/* ..................navbar */
+.navbar{
+    margin: 2% 0 2% 0;
+}
+.nav-link{
+    font-size: 1rem;
+}
+.nav-link:hover{
+    transform: scale(1.2, 1.2);
+}
+#navbar-brand{
+    font-size: 2rem;
+}
+
+/* .....................heading */
+#heading{
+    margin: 0 auto;
+    font-weight: 3rem;
+    font-size: 48px;
+    margin: 70px auto;
+}
+
+/* ....................card */
+.card{
+    padding: 2rem;
+    text-align: center;
+    margin: 1.5rem auto;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin:0 auto;
+}
+.col{
+    text-align: center;
+}
+.bg-c-green {
+    background: linear-gradient(45deg,#2ed8b6,#346cbe);
+}
+
+
+
+/* ......................hr */
+.hr-tag{
+    width: 50px;
+    border-style: dotted none none none;
+    border-width: 5px;
+    margin:2% auto;
+    opacity: 1;
+}
+
+/* .................footer */
+footer{
+    background-color: #2ed8b6;
+}
+
+
+
+a{
+    font-size: 2rem;
+    margin: 20px 20px;
+}
+
