@@ -1,7 +1,8 @@
-/* ..................body */
-.the-body{
+/* ..................wrapp */
+.wrapp{
     padding: 0 5%;
 }
+
 
 /* .................some defaults */
 .pr-color{
@@ -9,12 +10,14 @@
 }
 p, a, i, .hr-tag, .card, #heading{
     color: white;
+    font-family: 'Comfortaa', cursive;
 }
 
 
 /* ..................navbar */
 .navbar{
-    margin: 2% 0 2% 0;
+    margin: 0 0 1% 0;
+    height: 70px;
 }
 .nav-link{
     font-size: 1rem;
@@ -25,12 +28,16 @@ p, a, i, .hr-tag, .card, #heading{
 #navbar-brand{
     font-size: 2rem;
 }
+.navbar-bg{
+    background-color: #2ed8b6;
+}
 
 /* .....................heading */
 #heading{
     margin: 0 auto;
     font-weight: 3rem;
     font-size: 48px;
+    font-family: 'Comfortaa', cursive;
     margin: 70px auto;
 }
 
@@ -40,6 +47,10 @@ p, a, i, .hr-tag, .card, #heading{
     text-align: center;
     margin: 1.5rem auto;
     box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+}
+.card:hover{
+    background: linear-gradient(45deg,#346cbe,#2ed8b6);
+    transform: scale(1.05, 1.05);
 }
 img{
     width: 200px;
@@ -68,12 +79,20 @@ img{
 /* .................footer */
 footer{
     background-color: #2ed8b6;
+    padding: 20px;
+}
+.footer-link{
+    margin: 0 40px 40px;
 }
 
 
 
 a{
     font-size: 2rem;
+    font-family: 'Comfortaa', cursive;
     margin: 20px 20px;
 }
 
+i:hover{
+    color: gold;
+}
