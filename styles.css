@@ -17,6 +17,7 @@ p, a, i, .hr-tag, .card, #heading,  .navbar-brand{
 /* ..................navbar */
 .navbar{
     margin: 0 0 1% 0;
+    color: black;
 }
 nav .navbar-nav li a{
     font-size: 1rem;
