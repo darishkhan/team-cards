@@ -3,13 +3,13 @@
     padding: 0 5%;
 }
 
-
 /* .................some defaults */
 .pr-color{
-    background:linear-gradient(90deg, #0a5cd7, #066e59);
+    background-color: #85f4ff;
+    /* background:linear-gradient(90deg, #0a5cd7, #066e59); */
 }
-p, a, i, .hr-tag, .card, #heading{
-    color: white;
+p, a, i, .hr-tag, .card, #heading,  .navbar-brand{
+    color: black;
     font-family: 'Comfortaa', cursive;
 }
 
@@ -17,12 +17,15 @@ p, a, i, .hr-tag, .card, #heading{
 /* ..................navbar */
 .navbar{
     margin: 0 0 1% 0;
-    height: 70px;
 }
-.nav-link{
+nav .navbar-nav li a{
     font-size: 1rem;
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    transition: all 1s ease;
 }
-.nav-link:hover{
+nav .navbar-nav li a:hover{
+    color:red;
     transform: scale(1.2, 1.2);
 }
 #navbar-brand{
@@ -47,9 +50,10 @@ p, a, i, .hr-tag, .card, #heading{
     text-align: center;
     margin: 1.5rem auto;
     box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    transition: all 1s ease;
 }
 .card:hover{
-    background: linear-gradient(45deg,#346cbe,#2ed8b6);
+    background: linear-gradient(45deg,#b8fff9,#faffaf);
     transform: scale(1.05, 1.05);
 }
 img{
@@ -62,7 +66,8 @@ img{
     text-align: center;
 }
 .bg-c-green {
-    background: linear-gradient(45deg,#2ed8b6,#346cbe);
+    /* background-color: #b8fff9; */
+    background: linear-gradient(45deg,#b8fff9,#b8fff9); 
 }
 
 
@@ -78,13 +83,13 @@ img{
 
 /* .................footer */
 footer{
-    background-color: #2ed8b6;
+    /* background-color: #black; */
     padding: 20px;
 }
 .footer-link{
     margin: 0 40px 40px;
+    
 }
-
 
 
 a{
@@ -92,7 +97,6 @@ a{
     font-family: 'Comfortaa', cursive;
     margin: 20px 20px;
 }
-
 i:hover{
-    color: gold;
+    color: red;
 }
