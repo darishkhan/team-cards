@@ -1,4 +1,4 @@
-/* ..................wrapp */
+//* ..................wrapp */
 .wrapp{
     padding: 0 5%;
 }
@@ -67,7 +67,6 @@ img{
     text-align: center;
 }
 .bg-c-green {
-    /* background-color: #b8fff9; */
     background: linear-gradient(45deg,#b8fff9,#b8fff9); 
 }
 
@@ -92,12 +91,17 @@ footer{
     
 }
 
-
+.quick-links{
+    font-size: 1rem;
+    font-family: 'Comfortaa', cursive;
+    margin: 20px 20px;
+    color:black;
+}
 a{
     font-size: 2rem;
     font-family: 'Comfortaa', cursive;
     margin: 20px 20px;
 }
-i:hover{
+.quick-links:hover, i:hover{
     color: red;
 }
